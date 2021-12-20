@@ -1,7 +1,7 @@
 provider "google" {
 # Please put SA accout JSON Key file in place of XXXX
   credentials = "${file("XXXXXXXXXXXXXXXX")}"
-  project = "teraform-demo-335414"//proj name 
+  project = "[Your_Project_Name]"//proj name 
   region  = "us-central1"
   zone    = "us-central1-c"
 }
